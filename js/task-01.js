@@ -6,6 +6,3 @@ console.log(`Number of categories ${listEl.children.length}`);
     `Category: ${item.firstElementChild.textContent}\nElements:${item.lastElementChild.children.length}`
   )
 );
-
-
-
