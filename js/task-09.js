@@ -12,5 +12,5 @@ btnClick.addEventListener("click", chengeColor);
 function chengeColor(evt) {
    let randomColor = getRandomHexColor();
    colorSpan.textContent = randomColor;
-   body.style.backgroundColor = randomColor;
+  body.style.backgroundColor = randomColor;
 };
