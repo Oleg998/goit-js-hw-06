@@ -7,7 +7,9 @@ function outText(evn) {
 
   if (writeText.length === inputlength) {
     inputText.classList.add("valid");
+    inputText.classList.remove("invalid");
   } else {
     inputText.classList.add("invalid");
+    inputText.classList.remove("valid");
   }
 }
